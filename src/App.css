@@ -37,27 +37,32 @@
   }
 }
 .parent{
-  width: 1512px;
-  height: 1003px;
-  background-color: black;
+  width: 100vw;
+  height: 102vh;
+  /* background-color: black; */
   display: flex;
   flex-direction: row;
+ background-image: url("https://img.freepik.com/premium-photo/ethereum-cryptocurrency-technology-abstract-background-concept-pink-blue-glow-logo-reflect-water-landscape-background-blue-3d-illustration-rendering_37129-2431.jpg");
+
 }
 .sidebar{
-  width: 288px;
-  height: 982px;
+  width: 20%;
+  height: 100vh;
   top: 1px;
   border-radius: 0px 32px 32px 0px;
-  background-color: blue;
+  background-color: grey;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px;
+  padding: 5px;
 }
 .cardBox{
- width: 1284px;
- height: 982px;
- background-color: brown;
+ width: 80vw;
+ height: 100vh;
+ /* background-color: brown; */
+ display: flex;
+ flex-direction: column;
 }
 .netlify{
  display: flex;
@@ -65,13 +70,57 @@
  padding: 10px;
 }
 .token{
+ display: flex;
+ flex-direction: row;
  background-color: red;
  padding: 10px;
- width: 100%;
+ width: 90%;
 }
 .address{
-
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
 }
 .fb{
-
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
 }
+.search{
+ height: 15%;
+ width: 96%;
+ /* background-color: teal; */
+ background-image: url("https://img.freepik.com/premium-photo/ethereum-cryptocurrency-technology-abstract-background-concept-pink-blue-glow-logo-reflect-water-landscape-background-blue-3d-illustration-rendering_37129-2431.jpg");
+ padding: 20px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+.boxes{
+height: 85%;
+width: 96%;
+gap: 10px;
+/* background-color: skyblue; */
+padding: 20px;
+display: grid;
+grid-template-columns: auto auto auto auto;
+grid-template-rows: auto;
+background-image: url("https://img.freepik.com/premium-photo/ethereum-cryptocurrency-technology-abstract-background-concept-pink-blue-glow-logo-reflect-water-landscape-background-blue-3d-illustration-rendering_37129-2431.jpg");
+}
+@media only screen and (max-width: 900px) {
+  .boxes{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .boxes{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+}
+
