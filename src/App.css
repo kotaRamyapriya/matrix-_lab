@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.parent{
+  width: 1512px;
+  height: 1003px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+.sidebar{
+  width: 288px;
+  height: 982px;
+  top: 1px;
+  border-radius: 0px 32px 32px 0px;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+.cardBox{
+ width: 1284px;
+ height: 982px;
+ background-color: brown;
+}
+.netlify{
+ display: flex;
+ flex-direction: row;
+ padding: 10px;
+}
+.token{
+ background-color: red;
+ padding: 10px;
+ width: 100%;
+}
+.address{
+
+}
+.fb{
+
+}
